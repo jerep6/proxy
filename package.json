@@ -1,0 +1,25 @@
+{
+    "name": "wechat-proxy",
+    "version": "1.0.0",
+    "description": "",
+    "main": "server.js",
+    "scripts": {
+        "local": "nodemon server.js 8080",
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "start": "node server.js"
+    },
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+        "got": "7.1.0",
+        "koa": "2.3.0",
+        "koa-better-router": "2.1.1",
+        "koa-body": "2.5.0",
+        "koa-router": "7.2.1",
+        "lodash": "4.17.4",
+        "winston": "2.4.0"
+    },
+    "devDependencies": {
+        "nodemon": "^1.12.1"
+    }
+}
