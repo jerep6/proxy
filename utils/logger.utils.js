@@ -19,7 +19,7 @@ console.log('Use console logger');
 logger.add(winston.transports.Console, {
   handleExceptions: true,
   humanReadableUnhandledException: true,
-  level: 'trace',
+  level: process.env.LOG_LEVEL || 'debug',
   timestamp: () => new Date().toISOString(),
   colorize: true,
   json: false

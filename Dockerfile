@@ -4,4 +4,4 @@ ENV PORT "3000"
 
 ADD "." /app
 
-CMD ["/bin/bash", "-c", "node /app/server.js \$PORT"]
+CMD ["/bin/bash", "-c", "node /app/server.js $PORT"]
